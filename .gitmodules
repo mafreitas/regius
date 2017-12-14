@@ -1,0 +1,3 @@
+[submodule "vbox_msconvert"]
+	path = vbox_msconvert
+	url = https://github.com/mafreitas/vbox_msconvert.git
