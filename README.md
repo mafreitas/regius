@@ -30,12 +30,12 @@ Install VirtualBox and create the VM for file conversion. The workflow uses a wi
 
 2) Install Windows 7/10
 
-Download and Install ProteoWizard binaries for Windows.
+3) Download and Install ProteoWizard binaries for Windows.
 [http://proteowizard.sourceforge.net/](http://proteowizard.sourceforge.net/)
 
-3) create the directory "c:\work" in the VM.  This folder is where temp files will be copied and converted.  The VM cleans up this folder.  (TODO add cleanup of orphaned files)
+4) create the directory "c:\work" in the VM.  This folder is where temp files will be copied and converted.  The VM cleans up this folder.  (TODO add cleanup of orphaned files)
 
-4) update the python scripts to point to the ProteoWizard directory that contains msconvert.exe
+5) update the python scripts to point to the ProteoWizard directory that contains msconvert.exe
 
 ### Setup OpenMS Docker Image
 Create the docker container for OpenMS and thrid-party tools.
