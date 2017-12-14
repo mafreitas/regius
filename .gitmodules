@@ -1,3 +1,6 @@
 [submodule "vbox_msconvert"]
 	path = vbox_msconvert
 	url = https://github.com/mafreitas/vbox_msconvert.git
+[submodule "docker_openms_2.2.0"]
+	path = docker_openms_2.2.0
+	url = https://github.com/mafreitas/docker_openms_2.2.0.git

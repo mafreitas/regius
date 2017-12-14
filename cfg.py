@@ -86,7 +86,8 @@ MSGFPlusAdapterParams = collections.OrderedDict({
 "precursor_error_units": "ppm",
 'instrument': 'low_res', #'high_res', 'Q_Exactive',
 "executable": "/tools/MSGFPlus.jar",
-'enzyme': 'Trypsin/P',
+#'enzyme': 'Trypsin/P', # openms nightly
+'enzyme': 'trypsin', # openms 2.2
 'variable_modifications': 'false',
 'fixed_modifications': 'false',
 "debug": "0",

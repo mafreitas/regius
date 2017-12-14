@@ -13,8 +13,7 @@ USER_DATA = os.getcwd()
 DOCKER_DATA = "/data"
 DOCKER_CMD = "docker run --rm -it -v"
 
-OPENMS_DOCKER_IMAGE = "mfreitas/openms:2.3.3"
-MM_DOCKER_IMAGE = "mfreitas/mm:0.5"
+OPENMS_DOCKER_IMAGE = "mfreitas/openms:2.2.0"
 
 #Parse ms files in /raw folder
 RAWFILES = glob.glob("raw/*")
